@@ -166,7 +166,7 @@ abline(1,-1,col=2)
 monte_carlo1<-function(){
   n <- 10^6
   x <- runif(n)*(3-0)+0
-  g<-(1/(sqrt(4*pi)))*exp(-(x^2)/(4))
+  g<-(1/(sqrt(8*pi)))*exp(-(x^2)/(8))
   mt<-0.5+sum(g)*3/n
 }
 plot(x<-seq(-6,6,length=100),dnorm(x,0,sqrt(2)), col=2,type="l",
