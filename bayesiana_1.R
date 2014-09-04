@@ -87,8 +87,10 @@ x<-gen_congru(10000,14091988)
 plot(x,type="h")
 #graficar hitograma
 hist(x)
-x<-gen_congru(20000,14091988)
-plot(x[length(x)-1],x[length(x)])
+
+# No se que onda con la ultima grafica que se pide
+# x<-gen_congru(20000,14091988)
+# plot(x[length(x)-1],x[length(x)])
 
 # Ejercicio 2
 
